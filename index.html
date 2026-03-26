@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mobile Claw 개인정보처리방침</title>
+    <title>Mobile Claw Privacy Policy</title>
     <style>
       :root {
         --bg: #f5f7fb;
@@ -76,73 +76,68 @@
   <body>
     <main>
       <div class="card">
-        <h1>Mobile Claw 개인정보처리방침</h1>
-        <p class="meta">시행일: 2026년 3월 26일</p>
+        <h1>Mobile Claw Privacy Policy</h1>
+        <p class="meta">Effective Date: March 26, 2026</p>
 
         <p>
-          Mobile Claw는 사용자 기기에서 동작하는 Android 앱입니다. 개발자가 별도로 운영하는 자체 서버에
-          사용자 정보를 저장하지 않는 것을 원칙으로 합니다. 다만 앱 기능 제공을 위해 일부 정보가
-          제3자 서비스로 직접 전송될 수 있습니다.
+          Mobile Claw is an Android application operating on the user's device. As a rule, we do not store user information on any separate servers operated by the developer. However, to provide app functionalities, some information may be transmitted directly to third-party services.
         </p>
 
-        <h2>1. 처리하는 정보</h2>
+        <h2>1. Information We Process</h2>
         <ul>
-          <li>로그인 시 필요한 OAuth 정보 및 인증 토큰</li>
-          <li>사용자가 입력한 프롬프트, 첨부 이미지, 스크린샷</li>
-          <li>앱 설정, 로컬 채팅 기록, 예약 작업 등 기기 내 저장 데이터</li>
-          <li>기능 사용 시 필요한 권한 정보: 위치, 연락처, 캘린더, 마이크, 알림, 오버레이</li>
-          <li><strong>접근성 권한을 통해 수집되는 화면 텍스트, UI 요소 및 기타 개인 정보(Other personal information)</strong></li>
-          <li>Firebase를 통한 앱 사용 정보 및 푸시 알림 관련 정보</li>
+          <li>OAuth information and authentication tokens required for login</li>
+          <li>Prompts, attached images, and screenshots entered by the user</li>
+          <li>Data stored on the device, such as app settings, local chat history, and scheduled tasks</li>
+          <li>Permission information required to use features: Location, Contacts, Calendar, Microphone, Notifications, and Overlay</li>
+          <li><strong>Screen text, UI elements, and other personal information collected via the Accessibility permission</strong></li>
+          <li>App usage information and push notification-related information via Firebase</li>
         </ul>
 
-        <h2>2. 이용 목적</h2>
+        <h2>2. Purpose of Use</h2>
         <ul>
-          <li>LLM 호출, OAuth 로그인, 작업 수행 및 결과 표시</li>
-          <li>사용자 요청에 따른 위치 조회, 연락처 검색/생성, 캘린더 작업, 음성 입력 등 기능 제공</li>
-          <li>오버레이 및 접근성 기능을 통한 앱 간 제어 지원 및 자동화</li>
-          <li>푸시 알림, 앱 안정성 확인, 기본 통계 분석</li>
+          <li>LLM calls, OAuth login, task execution, and displaying results</li>
+          <li>Providing features such as location lookup, contact search/creation, calendar tasks, and voice input based on user requests</li>
+          <li>Supporting cross-app control and automation via overlay and accessibility features</li>
+          <li>Push notifications, app stability checks, and basic statistical analysis</li>
         </ul>
 
-        <h2>3. 접근성 서비스(AccessibilityService) API 사용 안내</h2>
+        <h2>3. AccessibilityService API Usage Notice</h2>
         <p>
-          Mobile Claw는 AI 어시스턴트로서 사용자를 대신해 화면의 내용을 파악하고 자동화된 작업을 수행하기 위해 접근성 서비스(AccessibilityService) 권한을 사용합니다.
+          Mobile Claw utilizes the AccessibilityService API to act as an AI assistant, understanding screen content and performing automated tasks on your behalf.
         </p>
         <ul>
-          <li><strong>수집 및 접근하는 데이터:</strong> 이 권한을 통해 앱은 현재 화면에 표시된 텍스트, 앱 인터페이스 요소, 그리고 화면 상에 노출될 수 있는 <strong>기타 개인 정보</strong>에 접근하고 이를 수집합니다.</li>
-          <li><strong>데이터 사용 목적:</strong> 수집된 데이터는 오직 사용자가 요청한 워크플로우를 이해하고, 앱 간 내비게이션 및 터치 액션을 대신 실행하는 핵심 AI 기능을 제공하는 데에만 사용됩니다. 이를 위해 화면 데이터는 외부 LLM 서버로 전송되어 처리되며, 승인되지 않은 목적이나 타겟팅 광고를 위해 사용되거나 개발자 서버에 영구적으로 저장되지 않습니다.</li>
+          <li><strong>Data Collected and Accessed:</strong> Through this permission, the app accesses and collects text displayed on the current screen, app interface elements, and <strong>other personal information</strong> that may be visible on the screen.</li>
+          <li><strong>Purpose of Data Use:</strong> The collected data is used exclusively to understand the workflows requested by the user and to provide core AI functionalities, such as executing cross-app navigation and touch actions on your behalf. To achieve this, screen data is transmitted to and processed by external LLM servers. It is not used for unauthorized purposes or targeted advertising, nor is it permanently stored on the developer's servers.</li>
         </ul>
 
-        <h2>4. 제3자 제공 및 외부 전송</h2>
-        <p>앱은 다음 서비스로 정보를 직접 전송할 수 있습니다.</p>
+        <h2>4. Third-Party Provision and External Transmission</h2>
+        <p>The app may transmit information directly to the following services:</p>
         <ul>
-          <li>OpenAI: OAuth 로그인, 토큰 갱신, LLM 응답 처리 (접근성을 통해 수집된 화면 데이터 포함)</li>
+          <li>OpenAI: OAuth login, token renewal, LLM response processing (including screen data collected via Accessibility)</li>
           <li>Google Firebase: Analytics, Cloud Messaging</li>
         </ul>
         <p>
-          이 과정에서 데이터는 국외 서버에서 처리될 수 있으며, 각 서비스의 처리방침은 해당 제공자의 정책을
-          따릅니다.
+          In this process, data may be processed on overseas servers, and the processing policy of each service is subject to the respective provider's policy.
         </p>
 
-        <h2>5. 기기 내 저장</h2>
+        <h2>5. Local Storage on Device</h2>
         <p>
-          인증 정보, 앱 설정, 일부 대화/작업 데이터는 사용자의 기기에 저장될 수 있습니다. 사용자는 앱의
-          로그아웃 또는 로컬 데이터 삭제 기능을 통해 이를 제거할 수 있습니다.
+          Authentication information, app settings, and some conversation/task data may be stored locally on the user's device. Users can remove this data through the app's logout or local data deletion features.
         </p>
 
-        <h2>6. 권한 사용</h2>
+        <h2>6. Use of Permissions</h2>
         <p>
-          앱은 기능 실행에 필요한 경우에만 권한을 요청합니다. 권한을 허용하지 않으면 해당 기능은 동작하지
-          않을 수 있습니다. 접근성 권한의 경우 선택 사항이며, 사용자는 기기 설정에서 언제든지 이를 취소할 수 있습니다.
+          The app requests permissions only when necessary for feature execution. If permissions are not granted, the corresponding features may not work. The Accessibility permission is optional, and users can revoke it at any time in their device settings.
         </p>
 
-        <h2>7. 문의</h2>
+        <h2>7. Contact Us</h2>
         <p>
-          개인정보처리방침 관련 문의는 Google Play 스토어에 기재된 개발자 연락처를 통해 할 수 있습니다.
+          For inquiries regarding this Privacy Policy, you can contact us through the developer contact information provided on the Google Play Store.
         </p>
 
-        <h2>8. 변경</h2>
+        <h2>8. Changes to this Policy</h2>
         <p>
-          본 방침은 앱 기능 변경 또는 법령 변경에 따라 수정될 수 있으며, 변경 시 이 페이지를 통해 공지합니다.
+          This policy may be updated due to changes in app features or legal requirements. Any changes will be announced on this page.
         </p>
       </div>
     </main>
