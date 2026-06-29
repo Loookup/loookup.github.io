@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mobile Claw Privacy Policy</title>
+    <style>
+      :root {
+        --bg: #f5f7fb;
+        --card: #ffffff;
+        --text: #17212b;
+        --muted: #5e6b78;
+        --line: #d9e1ea;
+        --accent: #0f9d7a;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
+        color: var(--text);
+        line-height: 1.65;
+      }
+
+      main {
+        max-width: 820px;
+        margin: 0 auto;
+        padding: 32px 18px 56px;
+      }
+
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        padding: 28px 22px;
+        box-shadow: 0 18px 50px rgba(18, 32, 45, 0.08);
+      }
+
+      h1, h2 {
+        margin: 0 0 12px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      h2 {
+        margin-top: 28px;
+        font-size: 20px;
+        color: var(--accent);
+      }
+
+      p, li {
+        font-size: 16px;
+      }
+
+      .meta {
+        color: var(--muted);
+        margin-bottom: 20px;
+      }
+
+      ul {
+        margin: 10px 0 0 20px;
+        padding: 0;
+      }
+
+      a {
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <h1>Mobile Claw Privacy Policy</h1>
+        <p class="meta">Effective Date: March 26, 2026</p>
+
+        <p>
+          Mobile Claw is an Android application operating on the user's device. As a rule, we do not store user information on any separate servers operated by the developer. However, to provide app functionalities, some information may be transmitted directly to third-party services.
+        </p>
+
+        <h2>1. Information We Process</h2>
+        <ul>
+          <li>OAuth information and authentication tokens required for login</li>
+          <li>Prompts, attached images, and screenshots entered by the user</li>
+          <li>Data stored on the device, such as app settings, local chat history, and scheduled tasks</li>
+          <li>Permission information required to use features: Location, Contacts, Calendar, Microphone, Notifications, and Overlay</li>
+          <li><strong>Screen text, UI elements, and other personal information collected via the Accessibility permission</strong></li>
+          <li>App usage information and push notification-related information via Firebase</li>
+        </ul>
+
+        <h2>2. Purpose of Use</h2>
+        <ul>
+          <li>LLM calls, OAuth login, task execution, and displaying results</li>
+          <li>Providing features such as location lookup, contact search/creation, calendar tasks, and voice input based on user requests</li>
+          <li>Supporting cross-app control and automation via overlay and accessibility features</li>
+          <li>Push notifications, app stability checks, and basic statistical analysis</li>
+        </ul>
+
+        <h2>3. AccessibilityService API Usage Notice</h2>
+        <p>
+          Mobile Claw utilizes the AccessibilityService API to act as an AI assistant, understanding screen content and performing automated tasks on your behalf.
+        </p>
+        <ul>
+          <li><strong>Data Collected and Accessed:</strong> Through this permission, the app accesses and collects text displayed on the current screen, app interface elements, and <strong>other personal information</strong> that may be visible on the screen.</li>
+          <li><strong>Purpose of Data Use:</strong> The collected data is used exclusively to understand the workflows requested by the user and to provide core AI functionalities, such as executing cross-app navigation and touch actions on your behalf. To achieve this, screen data is transmitted to and processed by external LLM servers. It is not used for unauthorized purposes or targeted advertising, nor is it permanently stored on the developer's servers.</li>
+        </ul>
+
+        <h2>4. Third-Party Provision and External Transmission</h2>
+        <p>The app may transmit information directly to the following services:</p>
+        <ul>
+          <li>OpenAI: OAuth login, token renewal, LLM response processing (including screen data collected via Accessibility)</li>
+          <li>Google Firebase: Analytics, Cloud Messaging</li>
+        </ul>
+        <p>
+          In this process, data may be processed on overseas servers, and the processing policy of each service is subject to the respective provider's policy.
+        </p>
+
+        <h2>5. Local Storage on Device</h2>
+        <p>
+          Authentication information, app settings, and some conversation/task data may be stored locally on the user's device. Users can remove this data through the app's logout or local data deletion features.
+        </p>
+
+        <h2>6. Use of Permissions</h2>
+        <p>
+          The app requests permissions only when necessary for feature execution. If permissions are not granted, the corresponding features may not work. The Accessibility permission is optional, and users can revoke it at any time in their device settings.
+        </p>
+
+        <h2>7. Contact Us</h2>
+        <p>
+          For inquiries regarding this Privacy Policy, you can contact us through the developer contact information provided on the Google Play Store.
+        </p>
+
+        <h2>8. Changes to this Policy</h2>
+        <p>
+          This policy may be updated due to changes in app features or legal requirements. Any changes will be announced on this page.
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
